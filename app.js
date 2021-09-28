@@ -1,8 +1,8 @@
 
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
-
 const express = require("express");
+const port = process.env.PORT || 1337;
 
 const app = express();
 
@@ -36,7 +36,7 @@ app.use((err, req, res, next) => {
 
 });
 
-app.listen(3000, () =>{
-    console.log('The application is up and running on localhost: 3000!')
+app.listen( port, () =>{
+    console.log('The application is up and running on localhost: 1337!')
 
 });
