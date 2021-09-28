@@ -1,4 +1,4 @@
-# flashcards-express
+# Flash Card Quiz Game
 
 <blockquote>An app built with Pug and Express on Node.js</blockquote>
 
